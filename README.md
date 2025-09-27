@@ -58,7 +58,7 @@ Banyak pengguna kesulitan menjaga fokus dan ritme kerja: mudah terdistraksi, sul
 - **Akses Cepat**:
   - Hotkeys: **Space** (Start/Pause), **→** (Skip).
 - **UI/UX**:
-  - Responsif (Bootstrap 5), nav pills untuk ganti mode, badge warna sesuai mode.
+  - Bootstrap 5, nav pills untuk ganti mode, badge warna sesuai mode, cards layout.
   - Simple dengan button yang mudah dipahami.
   - Responsive (Desktop/Mobile).
 
