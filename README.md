@@ -53,12 +53,12 @@ Banyak pengguna kesulitan menjaga fokus dan ritme kerja: mudah terdistraksi, sul
 - **Notifikasi & Audio**:
   - **Beep** via Web Audio API.
   - **Notifikasi desktop** opsional (dengan permission).
-- **Preferensi Tersimpan**:
+- **Preferensi**:
   - Durasi `Focus/Short/Long`, `Cycles → Long`, `Auto-start next`, `Beep`, `Desktop notification` → disimpan di `localStorage`.
 - **Akses Cepat**:
   - Hotkeys: **Space** (Start/Pause), **→** (Skip).
 - **UI/UX**:
   - Responsif (Bootstrap 5), nav pills untuk ganti mode, badge warna sesuai mode.
-  - Tanpa backend — muat cepat, aman di shared hosting.
+  - Simple dengan button yang mudah dipahami.
 
 ---
