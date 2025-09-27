@@ -60,5 +60,6 @@ Banyak pengguna kesulitan menjaga fokus dan ritme kerja: mudah terdistraksi, sul
 - **UI/UX**:
   - Responsif (Bootstrap 5), nav pills untuk ganti mode, badge warna sesuai mode.
   - Simple dengan button yang mudah dipahami.
+  - Responsive (Desktop/Mobile).
 
 ---
