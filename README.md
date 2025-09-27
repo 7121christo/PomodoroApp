@@ -21,7 +21,6 @@ Banyak pengguna kesulitan menjaga fokus dan ritme kerja: mudah terdistraksi, sul
 
 ### Pendekatan
 - **Arsitektur minimalis**: Laravel hanya untuk routing & rendering **1 Blade** (UI). Seluruh logika timer berjalan di browser (JS).
-- **Persistensi lokal** via `localStorage` untuk menyimpan preferensi pengguna (durasi, auto-start, dsb).
 - **Realtime feedback**: progress bar Bootstrap, judul tab menampilkan countdown, **Web Audio API** untuk beep, **Notifications API** (opsional) ketika sesi berakhir.
 - **Kemudahan deploy**: cukup arahkan **Document Root** ke folder `public/`, pastikan PHP 8.2+, dan atur `index.php` jika app root berada di luar web root.
 
@@ -35,8 +34,8 @@ Banyak pengguna kesulitan menjaga fokus dan ritme kerja: mudah terdistraksi, sul
   - State machine Pomodoro (`focus`, `short`, `long`), timer `setInterval`, kontrol start/pause/reset/skip.
   - Beban kecil & mudah diintegrasi.
 - **Bootstrap 5.3 + Bootstrap Icons (CDN)**
-  - *Peran:* komponen UI (pills, button, progress, toast) yang konsisten & responsif.
-  - *Alasan:* styling cepat, tidak butuh build tool.
+  - Komponen UI (pills, button, progress, toast) yang konsisten & responsif.
+  - Styling cepat, tidak butuh build tool.
 - **Web APIs**
   - **Web Audio API**: menghasilkan bunyi “beep” tanpa file audio eksternal.
   - **Web Notifications API**: notifikasi desktop ketika sesi berakhir (dengan izin pengguna).
