@@ -61,5 +61,45 @@ Banyak pengguna kesulitan menjaga fokus dan ritme kerja: mudah terdistraksi, sul
   - Bootstrap 5, nav pills untuk ganti mode, badge warna sesuai mode, cards layout.
   - Simple dengan button yang mudah dipahami.
   - Responsive (Desktop/Mobile).
-
 ---
+
+## 4) AI Support explanation
+- **Draft awal & refactor** logika timer.
+- **Perbaikan bug cepat** (mis. button reset tidak mengubah waktu/cycle, pemanggilan fungsi yang tidak ada, dsb.).
+---
+
+## Instalation
+### 1. Clone the Repository
+```sh
+git clone https://github.com/yourusername/unibookstore.git
+cd unibookstore
+```
+
+### 2. Install Dependencies
+```sh
+composer install
+npm install
+```
+
+### 3. Configure the Environment
+Copy the `.env.example` file and update database credentials:
+```sh
+cp .env.example .env
+```
+Edit `.env` and configure your database connection:
+```
+DB_DATABASE=your_database_name
+DB_USERNAME=your_database_user
+DB_PASSWORD=your_database_password
+```
+
+### 4. Run Migrations & Seeders
+```sh
+php artisan migrate --seed
+```
+
+### 5. Serve the Application
+```sh
+php artisan serve
+```
+Then, open `http://127.0.0.1:8000` in your browser.
