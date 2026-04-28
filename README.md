@@ -71,8 +71,8 @@ Banyak pengguna kesulitan menjaga fokus dan ritme kerja: mudah terdistraksi, sul
 ## Instalation
 ### 1. Clone the Repository
 ```sh
-git clone https://github.com/yourusername/unibookstore.git
-cd unibookstore
+git clone https://github.com/7121christo/PomodoroApp
+cd pomodoroapp
 ```
 
 ### 2. Install Dependencies
